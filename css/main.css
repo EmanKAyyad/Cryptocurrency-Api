@@ -1,0 +1,118 @@
+h1 {
+    text-transform: capitalize;
+    color: #42407e;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 50px;
+}
+
+
+.view10 {
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #50bfbf;
+    color: #50bfbf;
+    font-size: 18px;
+    background-color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.view10:hover {
+    background-color: #50bfbf;
+    color: #fff;
+}
+
+.view10:focus {
+    outline: none;
+}
+
+#TopTenScreen {
+    margin-top: 50px;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.single-item h3 {
+    display: inline-block;
+}
+
+.single-item .usd-price {
+    float: right;
+    line-height: 43px;
+}
+
+.usd-price {
+    color: #e74949;
+}
+
+.usd-price::before {
+    content: "\0024";
+    margin-right: 5px;
+}
+
+.btc-price {
+	color: #85bf4f;
+}
+
+.btc-price::before{
+	content: "btc";
+	margin-right: 5px;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #50bfbf;
+    text-transform: capitalize;
+}
+
+#currencyName {
+    margin: 40px auto 0;
+    display: block;
+    width: 400px;
+    padding: 5px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#currencyName:focus {
+    outline: none;
+}
+
+#specificCurrencyData {
+    position: relative;
+}
+
+ul#suggestedCurrList {
+	position: absolute;
+	top: 0;
+	left: -webkit-calc(50% - 200px);
+	left: calc(50% - 200px);
+    width: 400px;
+    margin: 10px auto 0;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid #e3e3e3;
+}
+
+.suggested-currency{
+	padding: 10px 20px;
+	transition: all 0.3s ease-in-out;
+	background-color: #fff;
+}
+
+.suggested-currency:hover{
+	background-color: #50bfbf;
+	color: #fff;
+}
+
+#specificCurrencyData{
+	margin-top: 20px;
+}
